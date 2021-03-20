@@ -21,7 +21,7 @@
 
     const redirectLink = document.querySelector('.menu-google a');
     redirectLink.textContent = 'Qwant';
-    redirectLink.removeAttribute("onclick");
+    redirectLink.removeAttribute('onclick');
     redirectLink.removeAttribute("title");
     redirectLink.removeAttribute("href");
     redirectLink.setAttribute('title', 'Tentez votre chance avec Qwant !');
