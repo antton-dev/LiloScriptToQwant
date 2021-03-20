@@ -3,6 +3,8 @@
 // @namespace    https://github.com/antton-dev/LiloScriptToQwant
 // @version      1.0.0
 // @description  Change la redirection vers un autre moteur de recherche.
+// @updateURL    https://github.com/antton-dev/LiloScriptToQwant/blob/main/scriptLilo.user.js
+// @downloadURL  https://github.com/antton-dev/LiloScriptToQwant/blob/main/scriptLilo.user.js
 // @author       AnttonDev
 // @match        *https://search.lilo.org/*
 // @icon         https://www.lilo.org/wp-content/themes/jarvis_wp/ajans/assets/lilo-logo.png
