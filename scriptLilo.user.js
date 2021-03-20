@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Lilo Qwant Redirection
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description   Change la redirection vers un autre moteur de recherche. 
+// @namespace    https://github.com/antton-dev/LiloScriptToQwant
+// @version      1.0.0
+// @description  Change la redirection vers un autre moteur de recherche.
 // @author       AnttonDev
 // @match        *https://search.lilo.org/*
 // @icon         https://www.lilo.org/wp-content/themes/jarvis_wp/ajans/assets/lilo-logo.png
@@ -25,4 +25,6 @@
     redirectLink.setAttribute('title', 'Tentez votre chance avec Qwant !');
     redirectLink.setAttribute('href', newLinkToQwant);
     redirectLink.setAttribute('target', '_blank');
+
+
 })();
