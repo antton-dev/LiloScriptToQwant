@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# LiloScriptToQwant
+Change la redirection vers un autre moteur de recherche.
 
-You can use the [editor on GitHub](https://github.com/antton-dev/LiloScriptToQwant/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Installation
+Pour installer ce script, vous devez d'abord installer une extension dans votre navigateur internet. Vous pouvez par exemple utiliser TamperMonkey, disponible sur [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) et [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd). Retrouvez la liste des navigateurs compatibles [ici](https://www.tampermonkey.net/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Une fois l'extension installée, rendez-vous sur ce lien : https://raw.githubusercontent.com/antton-dev/LiloScriptToQwant/main/scriptLilo.user.js et cliquez sur le bouton "installer".
+Et voilà, c'est terminé ! 
 
-### Markdown
+Vous pouvez maintenant effectuer une recherche sur [Lilo](https://www.lilo.org/), le menu est modifié avec des redirections vers Qwant à la place de Google, et Qwant Maps à la place de Google Maps.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/antton-dev/LiloScriptToQwant/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Assistance
+En cas de problème, utilisez l'onglet Issues de Github, ou accédez-y directement en suivant [ce lien](https://github.com/antton-dev/LiloScriptToQwant/issues). Ensuite, créez une nouvelle issue en cliquant sur "New issue" puis décrivez votre problème en étant le plus précis possible. Vous pouvez ajouter des photos pour être plus précis.
