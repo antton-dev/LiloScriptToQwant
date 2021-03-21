@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lilo Qwant Redirection
 // @namespace    https://github.com/antton-dev/LiloScriptToQwant
-// @version      1.0.0
+// @version      1.1.0
 // @description  Change la redirection vers un autre moteur de recherche.
 // @updateURL    https://raw.githubusercontent.com/antton-dev/LiloScriptToQwant/main/scriptLilo.user.js
 // @downloadURL  https://raw.githubusercontent.com/antton-dev/LiloScriptToQwant/main/scriptLilo.user.js
@@ -21,12 +21,22 @@
 
     const redirectLink = document.querySelector('.menu-google a');
     redirectLink.textContent = 'Qwant';
-    redirectLink.removeAttribute('onclick');
+    redirectLink.removeAttribute("onclick");
     redirectLink.removeAttribute("title");
     redirectLink.removeAttribute("href");
     redirectLink.setAttribute('title', 'Tentez votre chance avec Qwant !');
     redirectLink.setAttribute('href', newLinkToQwant);
     redirectLink.setAttribute('target', '_blank');
 
+    const newLinkToQwantMaps = "https://www.qwant.com/maps/?q=" + query
+
+    const redirectLinkToMaps = document.querySelector('.menu-maps a');
+    redirectLinkToMaps.textContent = 'Qwant Maps';
+    redirectLinkToMaps.removeAttribute("onclick");
+    redirectLinkToMaps.removeAttribute("title");
+    redirectLinkToMaps.removeAttribute("href");
+    redirectLinkToMaps.setAttribute('title', 'Tentez votre chance avec Qwant Maps!');
+    redirectLinkToMaps.setAttribute('href', newLinkToQwantMaps);
+    redirectLinkToMaps.setAttribute('target', '_blank');
 
 })();
