@@ -8,3 +8,6 @@ Une fois l'extension installée, rendez-vous sur ce lien : https://raw.githubuse
 Et voilà, c'est terminé ! 
 
 Vous pouvez maintenant effectuer une recherche sur [Lilo](https://www.lilo.org/), le menu est modifié avec des redirections vers Qwant à la place de Google, et Qwant Maps à la place de Google Maps.
+
+## Assistance
+En cas de problème, utilisez l'onglet Issues de Github, ou accédez-y directement en suivant [ce lien](https://github.com/antton-dev/LiloScriptToQwant/issues). Ensuite, créez une nouvelle issue en cliquant sur "New issue" puis décrivez votre problème en étant le plus précis possible. Vous pouvez ajouter des photos pour être plus précis.
