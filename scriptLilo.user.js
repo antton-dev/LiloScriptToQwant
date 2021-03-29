@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lilo Qwant Redirection
 // @namespace    https://github.com/antton-dev/LiloScriptToQwant
-// @version      1.1.0
+// @version      1.1.1
 // @description  Change la redirection vers un autre moteur de recherche.
 // @updateURL    https://raw.githubusercontent.com/antton-dev/LiloScriptToQwant/main/scriptLilo.user.js
 // @downloadURL  https://raw.githubusercontent.com/antton-dev/LiloScriptToQwant/main/scriptLilo.user.js
@@ -26,7 +26,6 @@
     redirectLink.removeAttribute("href");
     redirectLink.setAttribute('title', 'Tentez votre chance avec Qwant !');
     redirectLink.setAttribute('href', newLinkToQwant);
-    redirectLink.setAttribute('target', '_blank');
 
     const newLinkToQwantMaps = "https://www.qwant.com/maps/?q=" + query
 
